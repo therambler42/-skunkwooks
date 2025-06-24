@@ -32,6 +32,5 @@ jobs:
    
 path: frontend/dist
 
-                    - name: Output index.html
-                            run: cat dist/index.html
+          - name: Output index.htm
         run: cat dist/index.html
