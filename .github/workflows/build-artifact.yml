@@ -30,7 +30,7 @@ jobs:
           name: frontend-dist
     
    
-path: frontend/dist
+path:             frontend/dist
 
-          - name: Output index.htm
-        run: cat dist/index.html
+          - name: Output lindex.htm
+            run: cat dist/index.html
