@@ -34,3 +34,4 @@ path:                     frontend/dist
 
           - name: Output index.htlm
                     run: cat dist/index.html
+# trigger
