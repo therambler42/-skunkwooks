@@ -2,6 +2,8 @@ import { Link, useLocation } from 'react-router-dom'
 import { X, Home, Package, ShoppingCart, ShoppingBag, Users, Truck, BarChart3, Settings } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
+console.log('Home icon is', Home);
+
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', icon: Home },
   { name: 'Inventory', href: '/inventory', icon: Package },
